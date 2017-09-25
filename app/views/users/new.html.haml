@@ -1,0 +1,11 @@
+%h1 Create New User
+
+= form_tag user_path do
+
+  = label :user, :user_id, 'User-ID'
+  = text_field :movie, 'user_id'
+
+  = label :user, :email, 'Email'
+  = text_field :user, :email, 'email'
+
+  = submit_tag 'Save Changes'
